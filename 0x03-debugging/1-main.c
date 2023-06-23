@@ -5,18 +5,21 @@
  * Return: 0
  */
 
-int (main)
+int main(void)
 {
     int i;
 
     printf("Infinite loop incoming :(\n");
+
     i = 0;
 
+    // Commented out the problematic part
+    /*
     while (i < 10)
     {
-        /* putchar(i);
-        i++*/; /* Increment i to avoid infinite loop*/
+        putchar(i);
     }
+    */
 
     printf("Infinite loop avoided! \\o/\n");
 
