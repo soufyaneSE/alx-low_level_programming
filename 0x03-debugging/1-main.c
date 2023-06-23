@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main
+int (main)
 {
     int i;
 
@@ -14,8 +14,8 @@ int main
 
     while (i < 10)
     {
-        // putchar(i);
-        i++; // Increment i to avoid infinite loop
+        /* putchar(i);
+        i++; */ Increment i to avoid infinite loop
     }
 
     printf("Infinite loop avoided! \\o/\n");
